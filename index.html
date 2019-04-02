@@ -14,32 +14,73 @@
 </head>
 
 <body>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
     <div class="container">
+
         <div class="row">
-            <div class="col-lg-7">
-                One of three columns
+
+            <div class="col-md-12">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4 text-center">April</h1>
+                        <p class="lead"></p>
+                    </div>
+                </div>
+
             </div>
-            <div class="col-lg-7">
-                One of three columns
-            </div>
-            <div class="col-lg-7">
-                One of three columns
-            </div>
-        </div>
-    </div>
+            <div class="row">
+
+
+                <div class="col-md-2">
+
+
+                </div>
+
+                <div class="calendar" id="calendar">
+                    <div class="calendar-btn month-btn" onclick="$('#months').toggle('fast')">
+                        <span id="curMonth"></span>
+                        <div id="months" class="months dropdown"></div>
+                    </div>
+
+                    <div class="calendar-btn year-btn" onclick="$('#years').toggle('fast')">
+                        <span id="curYear"></span>
+                        <div id="years" class="years dropdown"></div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="calendar-dates">
+                        <div class="days">
+                            <div class="day label">SUN</div>
+                            <div class="day label">MON</div>
+                            <div class="day label">TUE</div>
+                            <div class="day label">WED</div>
+                            <div class="day label">THUR</div>
+                            <div class="day label">FRI</div>
+                            <div class="day label">SAT</div>
+
+                            <div class="clear"></div>
+                        </div>
+
+                        <div id="calendarDays" class="days">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Optional JavaScript -->
+                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                    crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                    crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
