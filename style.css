@@ -1,0 +1,26 @@
+a
+{
+
+    text-align: center;
+}
+
+body {
+    font-family: century gothic;
+}
+
+ul li {
+  text-align: center;
+  list-style: none;
+}
+
+.footer {
+    background-color: #263238;
+    height: 5%;
+}
+
+.footer-text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 12px;
+}
